@@ -1,8 +1,8 @@
-// File: D:\projects\SaleG8-mvp\app\dashboard\admin\sales\create\page.tsx
-import * as entry from '../../../../../../../app/dashboard/admin/sales/create/page.js'
+// File: D:\projects\SaleG8-mvp\app\dashboard\buyer\invoices\page.tsx
+import * as entry from '../../../../../../app/dashboard/buyer/invoices/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../../../app/dashboard/admin/sales/create/page.js')
+type TEntry = typeof import('../../../../../../app/dashboard/buyer/invoices/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

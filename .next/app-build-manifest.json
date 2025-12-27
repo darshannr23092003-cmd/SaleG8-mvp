@@ -26,10 +26,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/layout.js"
     ],
-    "/dashboard/admin/sales/create/page": [
+    "/dashboard/buyer/invoices/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/admin/sales/create/page.js"
+      "static/chunks/app/dashboard/buyer/invoices/page.js"
     ]
   }
 }

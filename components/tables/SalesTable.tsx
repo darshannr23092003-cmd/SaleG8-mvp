@@ -53,9 +53,12 @@ export default function SalesTable({ sales }: SalesTableProps) {
                 </span>
               </td>
               <td className="px-4 py-3">
-                <button className="text-blue-600 hover:underline">
+                <a
+                  href={`/dashboard/admin/sales/${sale.id}`}
+                  className="text-blue-600 hover:underline"
+                >
                   View
-                </button>
+                </a>
               </td>
             </tr>
           ))}
