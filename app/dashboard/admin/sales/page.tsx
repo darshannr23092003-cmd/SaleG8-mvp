@@ -1,7 +1,7 @@
 import SalesTable from "@/components/tables/SalesTable";
 
 export default function AdminSalesPage() {
-  // Mock data (temporary)
+  // Mock sales data (MVP only)
   const sales = [
     {
       id: "SALE-001",
@@ -25,12 +25,17 @@ export default function AdminSalesPage() {
 
   return (
     <div className="space-y-6">
-      {/* Page Header */}
+      {/* Header */}
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-semibold">Sales</h1>
-        <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+
+        {/* Create Sale Button */}
+        <a
+          href="/dashboard/admin/sales/create"
+          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+        >
           + Create Sale
-        </button>
+        </a>
       </div>
 
       {/* Sales Table */}
