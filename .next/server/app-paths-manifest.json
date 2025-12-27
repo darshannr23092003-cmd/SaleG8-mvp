@@ -1,7 +1,4 @@
 {
-  "/dashboard/admin/sales/page": "app/dashboard/admin/sales/page.js",
-  "/(public)/page": "app/(public)/page.js",
-  "/dashboard/admin/page": "app/dashboard/admin/page.js",
   "/dashboard/admin/sales/create/page": "app/dashboard/admin/sales/create/page.js",
-  "/dashboard/buyer/page": "app/dashboard/buyer/page.js"
+  "/(public)/page": "app/(public)/page.js"
 }
