@@ -2,7 +2,7 @@ import "../styles/globals.css";
 
 export const metadata = {
   title: "SaleG8",
-  description: "Livestock sales, data capture, and reporting platform",
+  description: "Sales and invoice management MVP",
 };
 
 export default function RootLayout({
